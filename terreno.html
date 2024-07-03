@@ -1,0 +1,26 @@
+<html>
+<head> <title> calcula el area del terreno de luis </title> </head>
+<center> <h1> <font face="Times New Roman">Calcula el area de un terreno </font face> </h1>
+<body bgcolor="#3791A3">
+<script language="javascript">
+
+function Area()
+        {
+     var area, base, altura;
+            base = prompt("Coloca la base");
+            altura = prompt("Coloca la altura");
+
+            base = parseInt(base);
+            altura = parseInt(altura);
+            area = (base * altura);
+
+            alert("El area del cuadrado es:" +area);
+        }
+    </script>
+  <form name="form1">
+      <input type="button" value="calcular area de terreno" onclick=Area()>
+   </form>
+   </center>
+  </body>
+</html> 
+
